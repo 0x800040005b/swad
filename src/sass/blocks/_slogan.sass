@@ -1,0 +1,54 @@
+.slogan
+  &-slider
+    margin-bottom: 70px
+  &-menu
+    margin-bottom: 20px
+    padding: 14px 0 11.5px 0
+    &__list
+      justify-content: center
+    &__link
+      padding: 10px
+    &__item
+      margin-right: 25px
+      position: relative
+      &:first-child
+        &::before
+          width: 0
+          height: 0
+          border: none
+      &::before
+        content: ''
+        width: 7px
+        height: 7px
+        border-radius: 50%
+        border: 0.75px solid $burgundy-color
+        display: inline-block
+        vertical-align: middle
+        margin-right: 25px
+  &-container
+    justify-content: center
+    flex-direction: column
+  &-text
+    max-width: 605px
+    height: 192px
+    margin: 0 auto 24px auto
+    text-align: center
+    padding: 0 10px
+    &__item
+      display: inline
+      line-height: 32px
+      &::before
+        content: ''
+        width: 5px
+        height: 5px
+        border-radius: 50%
+        background: $burgundy-color
+        display: inline-block
+        margin-right: 10px
+        vertical-align: middle
+      span
+        color: $burgundy-color
+  &-ring
+    &__img
+      margin: 0 auto
+
