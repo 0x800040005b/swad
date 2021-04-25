@@ -1,4 +1,6 @@
 .slogan
+  padding-top: 43px
+  padding-bottom: 45px
   &-slider
     margin-bottom: 70px
   &-menu
@@ -8,6 +10,19 @@
       justify-content: center
     &__link
       padding: 10px
+      &s
+        align-items: center
+        justify-content: space-between
+        padding: 0 10px
+        margin-bottom: 30px
+        display: none
+        .header
+          &-call__link
+            display: flex
+            flex-direction: row
+          &__link
+            color: $burgundy-color
+
     &__item
       margin-right: 25px
       position: relative
@@ -30,7 +45,6 @@
     flex-direction: column
   &-text
     max-width: 605px
-    height: 192px
     margin: 0 auto 24px auto
     text-align: center
     padding: 0 10px
@@ -51,4 +65,13 @@
   &-ring
     &__img
       margin: 0 auto
+  &-slide
+    &__text
+      text-align: center
+    &__desc
+      display: block
+    &__picture
+      display: block
+      margin: 0 auto
+
 
