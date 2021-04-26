@@ -117,26 +117,26 @@
                 <div class="portfolio">
                     <h3 class="portfolio__title title">Портфолио</h3>
                     <div class="portfolio-block">
-                            <div class="portfolio-row portfolio-row_first flex-container">
-                                <div class="portfolio-column portfolio__img_big"><img
-                                        src="img/portfolio/slides/slide-1.jpg"
-                                        alt="photo-1" class="portfolio__img">
-                                </div>
-                                <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
-                                                                   class="portfolio__img"></div>
+                        <div class="portfolio-row portfolio-row_first flex-container">
+                            <div class="portfolio-column portfolio__img_big"><img
+                                    src="img/portfolio/slides/slide-1.jpg"
+                                    alt="photo-1" class="portfolio__img">
                             </div>
-                            <div class="portfolio-row flex-container">
-                                <div class="portfolio-column">
-                                    <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
-                                </div>
-                                <div class="portfolio-column">
-                                    <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
-                                </div>
-                                <div class="portfolio-column">
-                                    <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
-                                </div>
+                            <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                                               class="portfolio__img"></div>
+                        </div>
+                        <div class="portfolio-row flex-container">
+                            <div class="portfolio-column">
+                                <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                            </div>
+                            <div class="portfolio-column">
+                                <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                            </div>
+                            <div class="portfolio-column">
+                                <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                            </div>
 
-                            </div>
+                        </div>
                     </div>
                     <!-- /.portfolio-block -->
                 </div>
@@ -268,16 +268,16 @@
                 <!-- /.step-block flex-container -->
 
                 <div class="step-deadline__block flex-container">
-                <a href="#" class="step-more__link">
-                    <img src="img/icons/arrow.svg" alt="click down">
-                </a>
-                <div class="step-deadline">
-                    <div class="step-deadline__text">
-                        Организация свадебного торжества может составлять
-                        <span class="step-deadline__text_time">От 16 дней до 7 месяцев</span>
+                    <a href="#" class="step-more__link">
+                        <img src="img/icons/arrow.svg" alt="click down">
+                    </a>
+                    <div class="step-deadline">
+                        <div class="step-deadline__text">
+                            Организация свадебного торжества может составлять
+                            <span class="step-deadline__text_time">От 16 дней до 7 месяцев</span>
+                        </div>
                     </div>
-                </div>
-                <!-- /.step-deadline -->
+                    <!-- /.step-deadline -->
                 </div>
                 <!-- /.step-deadline__block flex-container -->
             </div>
@@ -286,23 +286,35 @@
         <!-- /.step -->
         <div class="feedback">
             <div class="container">
-                <h2 class="feedback-title title">Отзывы наших молодоженов</h2>
+                <h2 class="feedback__title title">Отзывы наших молодоженов</h2>
                 <div class="feedback-slider">
-                    <div class="feedback-slide">
-                        <div class="feedback-slide__img"><img src="img/feedback/feedback-img.jpg" alt="feedback-photo" class="feedback__img"></div>
+                    <div class="feedback-slide flex-container">
+                        <div class="feedback-slide__img">
+                            <img src="img/feedback/feedback-img.jpg" alt="feedback-photo" class="feedback__img">
+                        </div>
                         <div class="feedback-slide__content">
-                            <div class="feedback-slide__title">Мы в восторге от нашей свадьбы!</div>
+                            <div class="feedback-slide__title title">Мы в восторге от нашей свадьбы!</div>
                             <div class="feedback-slide__text">
-                                Все было даже лучше, чем мы себе могли предположить изначально и даже в процессе планирования. Сам праздник превзошел все наши ожидания. Все было так красиво и профессионально! Но при этом непринужденно, будто происходило все само-собой, естественное веселье ! Без малейших переживаний, нервов и суеты. Может  какие-то проблемы и возникали, но видимо их так быстро решали, что никто не догадался. А мы веселились и наслаждались нашим волшебным днём!
+                                Все было даже лучше, чем мы себе могли предположить изначально и даже в процессе
+                                планирования. Сам праздник превзошел все наши ожидания. Все было так красиво
+                                и профессионально! Но при этом непринужденно, будто происходило все само-собой,
+                                естественное веселье ! Без малейших переживаний, нервов и суеты. Может какие-то проблемы
+                                и возникали, но видимо их так быстро решали, что никто не догадался. А мы веселились
+                                и наслаждались нашим волшебным днём!
                             </div>
-                            <div class="feedback-slide__author"></div>
-                            <time datetime="2020-09-17" class="feedback-slide__date">17.09.2020</time>
+                            <div class="feedback-slide__info flex-container">
+                                <div class="feedback-slide__author">Алексей и Анастасия</div>
+                                <time datetime="2020-09-17" class="feedback-slide__date">17.09.2020</time>
+                            </div>
+                            <!-- /.feedback-slide__info flex-container -->
                         </div>
                     </div>
-                    <div class="feedback-slider__controls">
-                        <a href="#" class="feedback-arrow__left"><img src="img/icons/arrow-left.svg" alt="arrow image" class="arrow-left__img"></a>
+                    <div class="feedback-slider__controls flex-container">
+                        <a href="#" class="feedback-arrow__left flex-container">
+                            <img src="img/icons/arrow-left.svg" alt="arrow image" class="arrow-left__img"></a>
                         <a href="#" class="button feedback-slide__more">посмотреть еще</a>
-                        <a href="#" class="feedback-arrow__left"><img src="img/icons/arrow-right.svg" alt="arrow image" class="arrow-right__img"></a>
+                        <a href="#" class="feedback-arrow__right flex-container">
+                            <img src="img/icons/arrow-right.svg" alt="arrow image" class="arrow-right__img"></a>
                     </div>
                     <!-- /.feedback-slider__controls -->
                 </div>
@@ -310,6 +322,63 @@
             <!-- /.container -->
         </div>
         <!-- /.feedback -->
+        <div class="blog">
+            <div class="container">
+                <h2 class="blog__title title">блог</h2>
+                <div class="blog-block flex-container">
+                    <div class="blog-card blog-card_1">
+                        <div class="blog-card__img"><img src="img/blog/1.jpg" alt="news photo-1"></div>
+                        <!-- /.block-card__img -->
+                        <div class="blog-content">
+                            <h3 class="title blog-content__title">Как выбрать свадебное агентство</h3>
+                            <div class="blog-content__text">У агентства обязательно должен быть информационный сайт! На
+                                мой взгляд, важно, чтобы пара могла без спешки, в комфортной домашней обстановке
+                                просмотреть портфолио агентства, найти ответы на свои основные вопросы ещё до встречи с
+                                организатором.
+                                Это всем экономит время. Что должно быть на сайте?
+                            </div>
+                            <!-- /.blog-content__text -->
+                        </div>
+                        <!-- /.blog-content -->
+                    </div>
+                    <!-- /.blog-card -->
+                    <div class="blog-card blog-card_2">
+                        <div class="blog-card__img"><img src="img/blog/2.jpg" alt="news photo-2"></div>
+                        <!-- /.block-card__img -->
+                        <div class="blog-content">
+                            <h3 class="title blog-content__title">Свадебный бюджет</h3>
+                            <div class="blog-content__text">
+                                Обсудим животрепещущую тему, из чего состоит свадебный бюджет и куда пойдут деньги. Данные цены являются средними, ориентировочными,  и применимы во всех городах.
+                                На каждой свадьбе, бюджет...
+                            </div>
+                            <!-- /.blog-content__text -->
+                        </div>
+                        <!-- /.blog-content -->
+                    </div>
+                    <!-- /.blog-card -->
+                    <div class="blog-card blog-card_3">
+                        <div class="blog-card__img"><img src="img/blog/3.jpg" alt="news photo-3"></div>
+                        <!-- /.block-card__img -->
+                        <div class="blog-content">
+                            <h3 class="title blog-content__title">Цветочный букет</h3>
+                            <div class="blog-content__text">
+                                Уместно дарить на свадьбу ландыши — они символизируют верность. Можно купить букет из пионов или георгинов — они означают радость...
+                            </div>
+                            <!-- /.blog-content__text -->
+                        </div>
+                        <!-- /.blog-content -->
+                    </div>
+                    <!-- /.blog-card -->
+
+
+                </div>
+                <!-- /.blog-block flex-container -->
+                <a href="#" class="button blog-more__link">Посмотреть все</a>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.blog -->
+        
     </section>
     <!-- /.wedding-info -->
 </div>

@@ -658,6 +658,95 @@ ul {
   .preferences__text {
     color: #990033; }
 
+.feedback {
+  padding-top: 185px;
+  padding-bottom: 190px; }
+  .feedback__title {
+    margin-bottom: 70px; }
+  .feedback-slide {
+    margin: 0 -25px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px; }
+    .feedback-slider__controls {
+      justify-content: center;
+      align-items: center; }
+    .feedback-slide__img {
+      flex: 1 1 50%;
+      padding: 0 25px; }
+    .feedback-slide__content {
+      flex: 1 1 50%;
+      padding: 0 25px; }
+    .feedback-slide__title {
+      text-transform: lowercase;
+      text-align: left;
+      margin-bottom: 30px;
+      color: #990033;
+      font-weight: 500; }
+    .feedback-slide__text {
+      margin-bottom: 27px;
+      font-size: 18px;
+      line-height: 27px; }
+    .feedback-slide__info {
+      color: #990033;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500; }
+  .feedback-arrow__left {
+    margin-right: 30px;
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    align-items: center; }
+  .feedback-arrow__right {
+    margin-left: 30px;
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    align-items: center; }
+
+.blog__title {
+  color: #990033;
+  margin-bottom: 70px; }
+
+.blog-block {
+  margin: 0 -10px; }
+
+.blog-more__link {
+  display: block;
+  max-width: 196px;
+  margin: 50px auto 0 auto; }
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 10px; }
+  .blog-card__img {
+    height: 100%; }
+    .blog-card__img img {
+      height: 100%; }
+  .blog-card:last-child {
+    margin-right: 0; }
+  .blog-card_1 {
+    max-width: 500px; }
+  .blog-card_2 {
+    max-width: 408px; }
+  .blog-card_3 {
+    max-width: 322px; }
+
+.blog-content {
+  padding: 29px 25px;
+  border: 1px solid #969595;
+  height: 100%; }
+  .blog-content__title {
+    text-transform: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: #990033; }
+  .blog-content__text {
+    font-size: 18px; }
+
 .lock {
   overflow: hidden; }
 
