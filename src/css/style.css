@@ -527,7 +527,7 @@ ul {
 
 /* Wedding Section */
 .wedding-info {
-  background: url("../img/main/bg.jpg") 0% 0%/contain repeat; }
+  background: url("../img/main/bg.jpg") 0% 0%/cover repeat; }
 
 .wedding__title {
   margin-bottom: 50px; }
@@ -746,6 +746,39 @@ ul {
     color: #990033; }
   .blog-content__text {
     font-size: 18px; }
+
+.subscribe-row {
+  margin: 0 -10px; }
+
+.subscribe-column {
+  flex-basis: calc(20% - 10px);
+  margin-right: 10px; }
+  .subscribe-column:last-child {
+    margin-right: 0; }
+
+.subscribe-wrapper {
+  position: relative; }
+
+.subscribe-text {
+  max-width: 400px;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 19px 94px 15px 94px; }
+  .subscribe-text__title {
+    line-height: 27px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300; }
+  .subscribe-text__link {
+    display: block;
+    text-align: center;
+    max-width: 118px;
+    margin: 0 auto;
+    color: #990033;
+    font-weight: 500; }
 
 .lock {
   overflow: hidden; }
