@@ -520,12 +520,22 @@ ul {
   .slogan-ring__img {
     margin: 0 auto; }
   .slogan-slide__text {
-    text-align: center; }
+    padding: 15px 0;
+    color: #990033;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 21.87%, rgba(255, 255, 255, 0.4) 30.6%, rgba(255, 255, 255, 0.95) 36.3%, rgba(255, 255, 255, 0.95) 63.76%, rgba(255, 255, 255, 0.4) 70.47%, rgba(255, 255, 255, 0) 79.08%); }
   .slogan-slide__desc {
     display: block; }
   .slogan-slide__picture {
     display: block;
     margin: 0 auto; }
+  .slogan-slide__img {
+    position: relative; }
 
 /* Wedding Section */
 .wedding-type {
@@ -792,7 +802,8 @@ ul {
 .footer {
   background: url("../img/footer/footer-bg.jpg") 0% 0%/contain repeat; }
   .footer-block {
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
   .footer-column_1 {
     max-width: 410px;
     padding: 0 10px; }
