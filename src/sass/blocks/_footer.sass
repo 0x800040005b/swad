@@ -1,0 +1,83 @@
+.footer
+  background: url("../img/footer/footer-bg.jpg") 0% 0%/contain repeat
+  &-block
+    align-items: center
+  &-column
+    &_1
+      max-width: 410px
+      padding: 0 10px
+    &_2
+      max-width: 310px
+    &_3
+      max-width: 413px
+  &-logo
+    margin-bottom: 47px
+    &__label
+      text-transform: uppercase
+      color: $burgundy-color
+      text-indent: 24px
+      display: block
+      font:
+        size: 15px
+        weight: 300
+  &-info
+    &__link
+      display: block
+      font:
+        size: 22px
+        weight: 300
+    &__number
+      color: $burgundy-color
+      margin-bottom: 34px
+    &__email
+      margin-bottom: 30px
+    &__text
+      span
+        color: $burgundy-color
+    &__address
+      margin-bottom: 40px
+  &-social
+    justify-content: space-between
+    &__link
+      width: 35px
+      height: 35px
+      border: 1px solid $burgundy-color
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+
+  &-form
+    &__text
+      color: $burgundy-color
+      span
+        display: block
+        margin-bottom: 26px
+    &__title
+      text-align: left
+      margin-bottom: 13px
+.form
+  &__input
+    margin-bottom: 20px
+    padding: 19px 0 19px 30px
+    background: $form-color
+    width: 100%
+    max-width: 440px
+    display: block
+    border: 1px solid $gray-color
+    &::placeholder
+      font:
+        family: "Roboto"
+        weight: 300
+        size: 19px
+  &-input__name
+    &::placeholder
+      color: $burgundy-color
+  &__button_submit
+    width: 100%
+    min-height: 60px
+    color: $burgundy-color
+    background: $white-color
+    border: 1px solid $gray-color
+    font:
+      weight: 300

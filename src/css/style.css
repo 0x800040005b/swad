@@ -406,7 +406,9 @@ ul {
       text-align: center; }
   .header-logo__label {
     display: block;
-    text-indent: 42px; }
+    text-indent: 42px;
+    text-transform: uppercase;
+    font-weight: 300; }
   .header-call__link {
     display: flex;
     align-items: center; }
@@ -526,6 +528,14 @@ ul {
     margin: 0 auto; }
 
 /* Wedding Section */
+.wedding-type {
+  font-size: 22px;
+  font-weight: 500;
+  border: 1px solid #F8F8F2;
+  margin-bottom: 30px;
+  padding: 20px 40px;
+  display: none; }
+
 .wedding-info {
   background: url("../img/main/bg.jpg") 0% 0%/contain repeat; }
 
@@ -745,38 +755,115 @@ ul {
     .blog-content__text {
       font-size: 18px; }
 
-.subscribe-row {
-  margin: 0 -10px; }
+.subscribe {
+  background: url("../img/subscribe/subscribe-bg.jpg") 0% 0%/contain repeat;
+  padding-top: 198px;
+  padding-bottom: 193px; }
+  .subscribe-row {
+    margin: 0 -10px; }
+  .subscribe-column {
+    flex-basis: calc(20% - 10px);
+    margin-right: 10px; }
+    .subscribe-column:last-child {
+      margin-right: 0; }
+  .subscribe-wrapper {
+    position: relative; }
+  .subscribe-text {
+    max-width: 400px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 19px 94px 15px 94px; }
+    .subscribe-text__title {
+      line-height: 27px;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 300; }
+    .subscribe-text__link {
+      display: block;
+      text-align: center;
+      max-width: 118px;
+      margin: 0 auto;
+      color: #990033;
+      font-weight: 500; }
 
-.subscribe-column {
-  flex-basis: calc(20% - 10px);
-  margin-right: 10px; }
-  .subscribe-column:last-child {
-    margin-right: 0; }
-
-.subscribe-wrapper {
-  position: relative; }
-
-.subscribe-text {
-  max-width: 400px;
-  background: #FFFFFF;
-  position: absolute;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 19px 94px 15px 94px; }
-  .subscribe-text__title {
-    line-height: 27px;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 300; }
-  .subscribe-text__link {
+.footer {
+  background: url("../img/footer/footer-bg.jpg") 0% 0%/contain repeat; }
+  .footer-block {
+    align-items: center; }
+  .footer-column_1 {
+    max-width: 410px;
+    padding: 0 10px; }
+  .footer-column_2 {
+    max-width: 310px; }
+  .footer-column_3 {
+    max-width: 413px; }
+  .footer-logo {
+    margin-bottom: 47px; }
+    .footer-logo__label {
+      text-transform: uppercase;
+      color: #990033;
+      text-indent: 24px;
+      display: block;
+      font-size: 15px;
+      font-weight: 300; }
+  .footer-info__link {
     display: block;
-    text-align: center;
-    max-width: 118px;
-    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 300; }
+  .footer-info__number {
     color: #990033;
-    font-weight: 500; }
+    margin-bottom: 34px; }
+  .footer-info__email {
+    margin-bottom: 30px; }
+  .footer-info__text span {
+    color: #990033; }
+  .footer-info__address {
+    margin-bottom: 40px; }
+  .footer-social {
+    justify-content: space-between; }
+    .footer-social__link {
+      width: 35px;
+      height: 35px;
+      border: 1px solid #990033;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .footer-form__text {
+    color: #990033; }
+    .footer-form__text span {
+      display: block;
+      margin-bottom: 26px; }
+  .footer-form__title {
+    text-align: left;
+    margin-bottom: 13px; }
+
+.form__input {
+  margin-bottom: 20px;
+  padding: 19px 0 19px 30px;
+  background: #F8F8F2;
+  width: 100%;
+  max-width: 440px;
+  display: block;
+  border: 1px solid #969595; }
+  .form__input::placeholder {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 19px; }
+
+.form-input__name::placeholder {
+  color: #990033; }
+
+.form__button_submit {
+  width: 100%;
+  min-height: 60px;
+  color: #990033;
+  background: #FFFFFF;
+  border: 1px solid #969595;
+  font-weight: 300; }
 
 .lock {
   overflow: hidden; }
@@ -817,7 +904,18 @@ ul {
       overflow-y: auto; }
     .slogan-menu__item {
       margin-bottom: 20px;
-      padding-left: 10px; } }
+      padding-left: 10px; }
+  .wedding-tabs {
+    flex-direction: column;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden; }
+    .wedding-tabs__link {
+      margin-bottom: 20px;
+      padding: 5px 10px; }
+  .wedding-type {
+    display: block; } }
 
 @media screen and (max-width: 540px) {
   .header-logo__link {
