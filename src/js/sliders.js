@@ -1,3 +1,2 @@
-new Swiper('.swiper-container',{
-
+document.addEventListener('DOMContentLoaded', function () {
 });

@@ -1,11 +1,38 @@
 document.addEventListener('DOMContentLoaded', function () {
+    let settings = {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        observer: true,
+        observeParents: true,
+        noSwiping: true,
+        simulateTouch: false,
+        loop: true,
+    }
+    /* Sliders */
+
+    const sloganSlider = new Swiper('.swiper-container.slogan-container',{
+        pagination:{
+            el: '.swiper-pagination',
+            type: 'bullets',
+            renderBullet: function(index,className){
+                return `<div class="${className}"><div></div></div>`;
+            }
+        },
+    });
+
+
+
     let weddingTabsContainer = document.querySelector('#wedding-tabs'),
         body = document.querySelector('body'),
-        typeWeddingSliders = document.querySelectorAll('.swiper-container'),
+        typeWeddingSliders = document.querySelectorAll('.wedding-container'),
         weddingTypeSpoiler = document.querySelector('#wedding-type'),
         burger = document.querySelector('#header-burger'),
-        mainMenu = document.querySelector('#slogan-menu'),
+        mainMenuContainer = document.querySelector('#slogan-menu'),
         menuClose = document.querySelector("#menu_close");
+        // mainMenuLinks = document.querySelectorAll('.slogan-menu__link');
+
     if(weddingTypeSpoiler != null){
         weddingTypeSpoiler.addEventListener('click', showMenu);
         document.querySelectorAll('.wedding-tabs__link').forEach((item)=>{
@@ -43,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if(menuClose != null){
         menuClose.addEventListener('click', showAndHideMainMenu)
     }
-
     function showWedding(link) {
         weddingTypeSpoiler.textContent = link.textContent;
             let linkHref = link.getAttribute('href');
@@ -55,6 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (!item.classList.contains('active')) {
                         item.classList.add('active');
                         item.classList.remove('hidden');
+
                     }
                 }
             });
@@ -69,8 +96,15 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
     function showAndHideMainMenu() {
-       mainMenu.classList.toggle('active');
+       mainMenuContainer.classList.toggle('active');
        body.classList.toggle('lock');
     }
+
+    let weddingSlider = new Swiper('.wedding-container',settings);
+
+
+
+
+
 
 });

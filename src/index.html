@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Свадебное агенство Счастье</title>
     <!-- Libraries -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <!-- My Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -73,16 +73,67 @@
             <!-- /.slogan-menu-->
         </div>
         <!-- /.container -->
-        <div class="slogan-slider">
-            <div class="slogan-slide">
-                <div class="slogan-slide__img">
-                    <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
-                    <div class="slogan-slide__text">
-                        <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
-                        <span class="slogan-slide__desc">с персональным менеджером</span>
+        <div class="swiper-container slogan-slider slogan-container">
+            <div class="swiper-wrapper slogan-wrapper">
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
                     </div>
                 </div>
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slogan-slide">
+                    <div class="slogan-slide__img">
+                        <img src="img/main/slides/slide-1.jpg" alt="slide-1" class="slogan-slide__picture">
+                        <div class="slogan-slide__text">
+                            <span class="slogan-slide__desc">Свыше 70 оригинальных свадеб</span>
+                            <span class="slogan-slide__desc">с персональным менеджером</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            <!-- /.slogan-wrapper -->
+            <div class="swiper-pagination"></div>
+
         </div>
         <!-- /.slogan-slider -->
         <div class="container">
@@ -107,7 +158,7 @@
     </section>
     <!-- /.slogan-->
     <section class="wedding-info">
-        <div class="wedding">
+        <div id="wedding" class="wedding">
             <div class="container">
                 <h2 class="title wedding__title">Какой будет Ваша <span>свадьба</span>?</h2>
                 <div id="wedding-type" class="wedding-type">Типы свадьбы</div>
@@ -119,130 +170,150 @@
                     <a href="#familyWeddingType" class="wedding-tabs__link">Камерная для близких</a>
                 </div>
                 <!-- /.wedding-tabs -->
-                <div class="portfolio">
+                <div id="portfolio" class="portfolio">
                     <h3 class="portfolio__title title">Портфолио</h3>
-                    <div id="classicWeddingType" class="swiper-container active">
+                    <div id="classicWeddingType" class="swiper-container wedding-container active">
                         <h2>класическая</h2>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                        <div class="swiper-wrapper wedding-wrapper">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
@@ -251,129 +322,152 @@
                             </div>
 
                         </div>
+                    <div class="swiper-button-prev arrow__left"></div>
+                    <div class="swiper-button-next arrow__right"></div>
+
                     </div>
-                    <div id="futureWeddingType" class="swiper-container">
+                    <div id="futureWeddingType" class="swiper-container wedding-container">
                         <h2>на природе</h2>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                        <div class="swiper-wrapper wedding-wrapper">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
@@ -382,129 +476,153 @@
                             </div>
 
                         </div>
+
+                    <div class="swiper-button-prev arrow__left"></div>
+                    <div class="swiper-button-next arrow__right"></div>
+
                     </div>
-                    <div id="beautifulWeddingType" class="swiper-container">
+                    <div id="beautifulWeddingType" class="swiper-container wedding-container">
                         <h2>масштабная</h2>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                        <div class="swiper-wrapper wedding-wrapper">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
@@ -513,129 +631,153 @@
                             </div>
 
                         </div>
+
+                    <div class="swiper-button-prev arrow__left"></div>
+                    <div class="swiper-button-next arrow__right"></div>
+
                     </div>
-                    <div id="abroadWeddingType" class="swiper-container">
+                    <div id="abroadWeddingType" class="swiper-container wedding-container">
                         <h2>за границей</h2>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                        <div class="swiper-wrapper wedding-wrapper">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
@@ -644,129 +786,151 @@
                             </div>
 
                         </div>
+                        <div class="swiper-button-prev arrow__left"></div>
+                        <div class="swiper-button-next arrow__right"></div>
                     </div>
-                    <div id="familyWeddingType" class="swiper-container">
+                    <div id="familyWeddingType" class="swiper-container wedding-container">
                         <h2>семейная свадьба</h2>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                        <div class="swiper-wrapper wedding-wrapper">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
                                 </div>
                                 <!-- /.portfolio-block -->
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide wedding-slide">
                                 <div class="portfolio-block">
                                     <div class="portfolio-row portfolio-row_first flex-container">
                                         <div class="portfolio-column portfolio__img_big"><img
                                                 src="img/portfolio/slides/slide-1.jpg"
                                                 alt="photo-1" class="portfolio__img">
                                         </div>
-                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg" alt="photo-2"
+                                        <div class="portfolio-column"><img src="img/portfolio/slides/slide-2.jpg"
+                                                                           alt="photo-2"
                                                                            class="portfolio__img"></div>
                                     </div>
                                     <div class="portfolio-row flex-container">
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-3.jpg" alt="photo-3"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-4.jpg" alt="photo-4"
+                                                 class="portfolio__img">
                                         </div>
                                         <div class="portfolio-column">
-                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5" class="portfolio__img">
+                                            <img src="img/portfolio/slides/slide-5.jpg" alt="photo-5"
+                                                 class="portfolio__img">
                                         </div>
 
                                     </div>
@@ -775,7 +939,12 @@
                             </div>
 
                         </div>
+                        <div class="swiper-button-prev arrow__left"></div>
+                        <div class="swiper-button-next arrow__right"></div>
                     </div>
+
+
+
 
 
                 </div>
@@ -786,7 +955,7 @@
             <!-- /.container -->
         </div>
         <!-- /.wedding -->
-        <div class="preferences">
+        <div id="preferences" class="preferences">
             <div class="container">
                 <h2 class="preferences__title title">Что вы получите ?</h2>
                 <div class="preferences-row flex-container">
@@ -862,7 +1031,7 @@
             <!-- /.container -->
         </div>
         <!-- /.preferences -->
-        <div class="step">
+        <div id="step" class="step">
             <div class="container">
                 <h2 class="step__title title">Как мы работаем ?</h2>
                 <div class="step-block flex-container">
@@ -923,7 +1092,7 @@
             <!-- /.container -->
         </div>
         <!-- /.step -->
-        <div class="feedback">
+        <div id="feedback" class="feedback">
             <div class="container">
                 <h2 class="feedback__title title">Отзывы наших молодоженов</h2>
                 <div class="feedback-slider">
@@ -961,7 +1130,7 @@
             <!-- /.container -->
         </div>
         <!-- /.feedback -->
-        <div class="blog">
+        <div id="blog" class="blog">
             <div class="container">
                 <h2 class="blog__title title">блог</h2>
                 <div class="blog-main__content">
@@ -1025,7 +1194,7 @@
             <!-- /.container -->
         </div>
         <!-- /.blog -->
-        <div class="subscribe">
+        <div id="subscribe" class="subscribe">
             <div class="container">
                 <div class="subscribe-content">
                     <div class="subscribe-wrapper">
@@ -1107,13 +1276,16 @@
                             </div>
                             <div class="footer-info__social footer-social flex-container">
                                 <a href="https://youtube.com" class="footer-social__link">
-                                    <img src="img/footer/social/iconYouTube.svg" alt="youtube icon" class="footer-social__img">
+                                    <img src="img/footer/social/iconYouTube.svg" alt="youtube icon"
+                                         class="footer-social__img">
                                 </a>
                                 <a href="https://facebook.com" class="footer-social__link">
-                                    <img src="img/footer/social/iconFaceBook.svg" alt="facebook icon" class="footer-social__img">
+                                    <img src="img/footer/social/iconFaceBook.svg" alt="facebook icon"
+                                         class="footer-social__img">
                                 </a>
                                 <a href="https://twitter.com" class="footer-social__link">
-                                    <img src="img/footer/social/iconTwitter.svg" alt="twitter icon" class="footer-social__img">
+                                    <img src="img/footer/social/iconTwitter.svg" alt="twitter icon"
+                                         class="footer-social__img">
                                 </a>
                                 <a href="https://vk.com" class="footer-social__link">
                                     <img src="img/footer/social/iconVK.svg" alt="vk icon" class="footer-social__img">
@@ -1131,16 +1303,18 @@
                             <img src="img/footer/ring-together.png" alt="ring logo" class="footer-logo__picture">
                         </div>
                     </div>
-                    </div>
+                </div>
                 <div class="footer-column footer-column_3">
                     <div class="footer-item">
                         <div class="footer-form">
                             <div class="footer-form__text">
                                 <h2 class="footer-form__title title">ОСТАВЬТЕ ЗАЯВКУ</h2>
                                 <span>Мы перезвоним вам  в течение 15 минут</span>
-                                <form action="#" method="post" class="footre__form form" >
-                                    <input type="text" name="name" id="name" class="form__input form-input__name" placeholder="Как вас зовут" >
-                                    <input type="text" name="phone" id="phone" class="form__input" placeholder="Ваш телефон">
+                                <form action="#" method="post" class="footre__form form">
+                                    <input type="text" name="name" id="name" class="form__input form-input__name"
+                                           placeholder="Как вас зовут">
+                                    <input type="text" name="phone" id="phone" class="form__input"
+                                           placeholder="Ваш телефон">
                                     <button type="submit" class="form__button_submit">Назначить встречу</button>
                                 </form>
                             </div>
@@ -1150,19 +1324,19 @@
 
             </div>
 
-            </div>
-            <!-- /.footer-block flex-container -->
         </div>
+        <!-- /.footer-block flex-container -->
+
         <!-- /.container -->
     </footer>
     <!-- /.footer -->
 </div>
 <!-- /.wrapper -->
-    <!-- Libraries -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!--My Scripts-->
-    <script src="js/main.js"></script>
-    <script src="js/sliders.js"></script>
+<!-- Libraries -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!--My Scripts-->
+<script src="js/main.js"></script>
+<script src="js/sliders.js"></script>
 
 </body>
 </html>
