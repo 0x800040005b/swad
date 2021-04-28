@@ -6,6 +6,7 @@
   &-menu
     margin-bottom: 20px
     padding: 14px 0 11.5px 0
+    transition: all 0.5s
     &__list
       justify-content: center
     &__link
@@ -83,5 +84,23 @@
       margin: 0 auto
     &__img
       position: relative
-
-
+.menu_close
+  display: block
+  width: 20px
+  height: 20px
+  //background: $black-color
+  position: relative
+  &::before, &::after
+    content: ''
+    width: 100%
+    height: 2px
+    position: absolute
+    background: $burgundy-color
+  &::before
+    top: 25%
+    left: 0
+    transform: rotate(45deg) translate(5px, 0)
+  &::after
+    bottom: 25%
+    left: 0
+    transform: rotate(-45deg) translate(5px, 0)
