@@ -110,7 +110,6 @@ document.addEventListener('DOMContentLoaded', function () {
         loop: true,
 
     });
-    feedbackSlider.navigation.update();
 
 
 
