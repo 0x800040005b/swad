@@ -581,8 +581,7 @@ ul {
 
 .wedding-tabs {
   margin-bottom: 180px;
-  justify-content: space-between;
-  overflow-y: auto; }
+  justify-content: space-between; }
   .wedding-tabs__link {
     color: #990033;
     font-size: 22px;
@@ -735,7 +734,6 @@ ul {
   .feedback__title {
     margin-bottom: 70px; }
   .feedback-slide {
-    margin: 0 -25px;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 50px; }
@@ -775,6 +773,9 @@ ul {
     height: 37px;
     justify-content: center;
     align-items: center; }
+  .feedback-arrow__left:hover .arrow-icon, .feedback-arrow__right:hover .arrow-icon {
+    transition: all 0.5s;
+    stroke: #990033; }
 
 .blog {
   padding-bottom: 97px; }
@@ -942,7 +943,8 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .swiper-pagination-bullets {
     display: flex;
     justify-content: center; }

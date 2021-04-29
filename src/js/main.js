@@ -30,8 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
         weddingTypeSpoiler = document.querySelector('#wedding-type'),
         burger = document.querySelector('#header-burger'),
         mainMenuContainer = document.querySelector('#slogan-menu'),
-        menuClose = document.querySelector("#menu_close");
-        // mainMenuLinks = document.querySelectorAll('.slogan-menu__link');
+        menuClose = document.querySelector("#menu_close"),
+        feedbackArrows = document.querySelectorAll('.feedback-arrow');
+
 
     if(weddingTypeSpoiler != null){
         weddingTypeSpoiler.addEventListener('click', showMenu);
@@ -101,6 +102,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let weddingSlider = new Swiper('.wedding-container',settings);
+    const feedbackSlider = new Swiper('.feedback-slider',{
+        navigation: {
+            prevEl: '.feedback-arrow__left',
+            nextEl: '.feedback-arrow__right',
+        },
+        loop: true,
+
+    });
+    feedbackSlider.navigation.update();
 
 
 
